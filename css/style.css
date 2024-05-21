@@ -454,14 +454,27 @@ footer ul li a {
 /* ------------------------------
   responsive
 ---------------------------------*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .faq-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
+  }
   .navbar .button-navbar {
     width: 50%;
+  }
+  .navbar{
+    padding: 0px;
+  }
+
+  .faq-grid {
+    display: grid;
+    gap: 20px;
   }
 
   .navbar .navbar-collapse {
     position: absolute;
-    top: 100px;
+    top: 70px;
     background: #0921fb;
     width: 100%;
     right: 0;
@@ -484,7 +497,7 @@ footer ul li a {
     margin-right: 6px;
   }
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     padding: 0 20px;
   }
@@ -546,7 +559,7 @@ footer ul li a {
     padding: 100px 0 0 0;
   }
 }
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -631,8 +644,6 @@ footer ul li a {
   box-sizing: border-box;
   margin: 0 auto;
 }
-
-
 .faq-container h1 {
   text-align: center;
   padding: 20px;
@@ -686,6 +697,7 @@ footer ul li a {
 .faq-answer p {
   margin: 0;
 }
+
 .faq-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
