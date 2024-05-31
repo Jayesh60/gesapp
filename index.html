@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </head>
   <body>
     <!-- loader -->
@@ -29,16 +30,18 @@
           <ul class="navbar-nav nav">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
+              <a class="nav-link" href="/about">About</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#features">Features</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="/highlights">Highlights</a>
             </li>
           </ul>
         </div>
         <a href="#" class="navbar-brand"
-          ><img src="img/logo.png" alt="" width="40" height="40"
+          ><img src="/img/logo.png" alt="" width="40" height="40"
         /></a>
         <button
           class="navbar-toggler"
@@ -90,20 +93,77 @@
     <!-- end intro -->
 
     <!-- intro image -->
-    <div class="intro-image">
-      <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <img src="img/ss1.png" alt="" />
+    <div class="image-container">
+      <swiper-container class="mySwiper">
+        <swiper-slide class="image-slide">
+          <img
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="height: 100%; width: 100%"
+          />
+          <div class="image-desc">
+            <h1>Saransa News</h1>
+            <!-- <h1>Stay Current, Connect, Engage</h1> -->
+            <p style="font-size: larger">
+              <span style="font-weight: 800">Saransa News</span>
+              Leverages Al to summarize news, in 2 Languages Provides Audio
+              summary. Promotes staying current and relevant.
+            </p>
           </div>
-          <div class="col-md m-none">
-            <img src="img/ss2.png" alt="" />
+        </swiper-slide>
+        <swiper-slide class="image-slide">
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="height: 100%; width: 100%"
+          />
+          <div class="image-desc">
+            <h1>Saransa Organization</h1>
+            <!-- <h1>Stay Current, Connect, Engage</h1> -->
+            <p style="font-size: larger">
+              <span style="font-weight: 800">Saransa Organization </span> Offers
+              Organizations a platform to directly engage. Promotes
+              Communication, Sharing Information and Alerts, and Target
+              Population Engagement
+            </p>
           </div>
-          <div class="col-md m-none">
-            <img src="img/ss3.png" alt="" />
+        </swiper-slide>
+        <swiper-slide class="image-slide">
+          <img
+            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="height: 100%; width: 100%"
+          />
+          <div class="image-desc">
+            <h1>Saransa Social</h1>
+            <!-- <h1>Stay Current, Connect, Engage</h1> -->
+            <p style="font-size: larger">
+              <span style="font-weight: 800">Saransa Social </span> Platform for
+              sharing video shorts, audio, live stream. Engages community
+              Promotes Creativity, Learning Allows users to Lead, Follow, Learn,
+              Engage, & Entertain.
+            </p>
           </div>
-        </div>
-      </div>
+        </swiper-slide>
+        <swiper-slide class="image-slide">
+          <img
+            src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="height: 100%; width: 100%"
+          />
+          <div class="image-desc">
+            <h1>Saransa Organization External</h1>
+            <!-- <h1>Stay Current, Connect, Engage</h1> -->
+            <p style="font-size: larger">
+              <span style="font-weight: 800"
+                >Saransa Organization External
+              </span>
+              a platform to directly engage. Promotes Communication, Sharing
+              Information and Alerts, and Target Population Engagement.
+            </p>
+          </div>
+        </swiper-slide>
+      </swiper-container>
     </div>
     <!-- end intro image -->
 
@@ -196,7 +256,10 @@
           </div>
           <div class="col-md">
             <div class="content-image">
-              <img src="img/features1.png" alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1559650656-5d1d361ad10e?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -210,7 +273,10 @@
         <div class="row align-items-center">
           <div class="col-md">
             <div class="content-image">
-              <img src="img/features2.png" alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
             </div>
           </div>
           <div class="col-md">
@@ -343,7 +409,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md col-second">
+          <!-- <div class="col-md col-second">
             <div class="row">
               <div class="col">
                 <img src="img/ss1.png" alt="" class="image1" />
@@ -352,7 +418,7 @@
                 <img src="img/ss3.png" alt="" class="image2" />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -495,10 +561,7 @@
           <div class="row align-items-center">
             <div class="col-md">
               <h2>Interested in our application get it now</h2>
-              <!-- <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                non similique eaque eum. Saepe nam
-              </p> -->
+              <p>We look forward to hearing from you.</p>
             </div>
             <div class="col-md">
               <div class="entry">
@@ -506,7 +569,7 @@
                   href="https://play.google.com/store/apps/details?id=com.deltadot.saransa"
                   target="_blank"
                   class="button"
-                  >Get Started</a
+                  >Get In Now</a
                 >
               </div>
             </div>
@@ -517,7 +580,7 @@
     <!-- end cta -->
 
     <!-- clients -->
-    <div id="clients" class="clients">
+    <!-- <div id="clients" class="clients">
       <div class="container">
         <div class="row">
           <div class="col-md">
@@ -555,8 +618,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- end clients -->
+    <div style="height: 10vh"></div>
 
     <!-- footer -->
     <footer>
@@ -601,16 +665,18 @@
               <h6>Usefull Link</h6>
               <ul>
                 <li>
-                  <a href="/#home"><i class="la la-user"></i> Home</a>
+                  <a href="/"><i class="la la-link"></i> Home</a>
                 </li>
                 <li>
-                  <a href="/#features"><i class="la la-rocket"></i> Features</a>
+                  <a href="/contact"><i class="la la-link"></i> Contact</a>
                 </li>
                 <li>
-                  <a href="/#download"><i class="la la-dollar"></i> Download</a>
+                  <a href="/highlights"
+                    ><i class="la la-link"></i> Highlights</a
+                  >
                 </li>
                 <li>
-                  <a href="/#faq"><i class="la la-envelope"></i> Faq</a>
+                  <a href="/about"><i class="la la-link"></i> About</a>
                 </li>
               </ul>
             </div>
